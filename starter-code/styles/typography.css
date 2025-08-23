@@ -1,0 +1,74 @@
+/* mobile text styles */
+.mobile-text-preset-1 {
+    font-size: var(--mobile-text-preset-1-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.mobile-text-preset-2 {
+    font-size: var(--mobile-text-preset-2-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.mobile-text-preset-3 {
+    font-size: var(--mobile-text-preset-3-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+
+/* tablet text styles */
+.tablet-text-preset-1 {
+    font-size: var(--tablet-text-preset-1-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.tablet-text-preset-2 {
+    font-size: var(--tablet-text-preset-2-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.tablet-text-preset-3 {
+    font-size: var(--tablet-text-preset-3-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+
+.tablet-text-preset-4 {
+    font-size: var(--tablet-text-preset-4-font-size);
+    font-weight: var(--text-preset-4-fontWeight);
+    line-height: var(--text-preset-45-line-height);
+}
+
+/* desktop text styles */
+.desktop-text-preset-1 {
+    font-size: var(--desktop-text-preset-1-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.desktop-text-preset-2 {
+    font-size: var(--desktop-text-preset-2-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+  
+.desktop-text-preset-3 {
+    font-size: var(--desktop-text-preset-35-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-123-line-height);
+}
+
+.desktop-text-preset-4 {
+    font-size: var(--desktop-text-preset-4-font-size);
+    font-weight: var(--text-preset-4-fontWeight);
+    line-height: var(--text-preset-45-line-height);
+}
+
+.desktop-text-preset-5 {
+    font-size: var(--desktop-text-preset-35-font-size);
+    font-weight: var(--text-preset-1235-fontWeight);
+    line-height: var(--text-preset-45-line-height);
+}
