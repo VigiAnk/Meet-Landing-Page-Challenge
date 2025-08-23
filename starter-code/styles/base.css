@@ -1,0 +1,17 @@
+/* root font size */
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-white);
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    min-height: 100dvh;
+    /* centering all children */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
