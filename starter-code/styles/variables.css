@@ -1,0 +1,37 @@
+:root {
+    /* Colors */
+    --color-white: hsl(0, 0%, 98%);
+
+    --color-slate-300: hsl(240, 18%, 85%);
+    --color-slate-600: hsl(240, 10%, 57%);
+    --color-slate-900: hsl(240, 21%, 20%);
+
+    --color-purple-300: hsl(268, 100%, 86%);
+    --color-purple-600: hsl(268, 34%, 53%);
+
+    --color-cyan-300: hsl(192, 90%, 77%);
+    --color-cyan-600: hsl(192, 37%, 48%);
+  
+    /* Typography Presets */
+    --font-family: "Red Hat Display", sans-serif;
+    
+    --mobile-text-preset-1-font-size: 2.5rem;
+    --mobile-text-preset-2-font-size: 2rem;
+    --mobile-text-preset-3-font-size: .75rem;
+
+    --text-preset-123-line-height: 1.1;
+    --text-preset-1235-fontWeight: 900;
+    --text-preset-4-fontWeight: 500;
+    --text-preset-45-line-height: 1.5;
+
+    --tablet-text-preset-1-font-size: 3rem;
+    --tablet-text-preset-2-font-size: 2.25rem;
+    --tablet-text-preset-3-font-size: .875rem;
+    --tablet-text-preset-4-font-size: 1rem;
+    
+    --desktop-text-preset-1-font-size: 4rem;
+    --desktop-text-preset-2-font-size: 2.5rem;
+    --desktop-text-preset-35-font-size: 1rem;
+    --desktop-text-preset-4-font-size: 1.125rem;
+}
+  
