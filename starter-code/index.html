@@ -4,28 +4,129 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&family=Roboto:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/styles.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+  <div class="banner">
+    <!-- top logo -->
+    <img src="./assets/logo.svg" alt="meet-logo">
+  </div>
+  <header>
+    <!-- display: none on desktop -->
+    <div class="image-hero-bg"></div>
+    <!-- desktop hero image left -->
+    <picture class="desktop-image-hero-left">
+      <!-- display: none on mobile/tablet -->
+      <img src="./assets/desktop/image-hero-left.png" alt="desktop-image-hero-left">
+    </picture>
 
-  Download v1.3
-  What is it?
+    <!-- middle texts -->
+    <div class="hero-mid">
+      <h1 class="hero-title" 
+        data-mobile="mobile-text-preset-1"
+        data-tablet="tablet-text-preset-1"
+        data-desktop="desktop-text-preset-1">
+        Group Chat for Everyone
+      </h1>
+      <p class="hero-desc" 
+        data-mobile="tablet-text-preset-4"
+        data-tablet="tablet-text-preset-4"
+        data-desktop="desktop-text-preset-4">
+        Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+      </p>
+      <div class="links">
+        <a href="#" class="header-download-1 desktop-text-preset-5">
+          Download v1.3
+        </a>
+        <a href="#" class="header-download-2 desktop-text-preset-5">
+          What is it?
+        </a>
+      </div>
+    </div>
 
-  01
-  Built for modern use
+    <!-- desktop hero image right -->
+    <picture class="desktop-image-hero-right">
+      <!-- display: none on mobile/tablet -->
+      <img src="./assets/desktop/image-hero-right.png" alt="desktop-image-hero-right">
+    </picture>
 
-  Smarter meetings, all in one place
+  </header>
+  <main>
+    <div class="serial-1">
+      <div class="line-decor"></div>
+      <div class="number desktop-text-preset-5">
+        01
+      </div>
+    </div>
+    <div class="main-images">
+      <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="main-image-1">
+      <img src="./assets/desktop/image-women-videochatting.jpg" alt="main-image-2">
+      <img src="./assets/desktop/image-men-in-meeting.jpg" alt="main-image-3">
+      <img src="./assets/desktop/image-man-texting.jpg" alt="main-image-4">
+    </div>
+    <div class="serial-2">
+      <div class="line-decor"></div>
+      <div class="number desktop-text-preset-5">
+        01
+      </div>
+    </div>
+    <div class="main-texts">
+      <div class="text-titles">
+        <p class="sub-title"
+          data-mobile="mobile-text-preset-3"
+          data-tablet="tablet-text-preset-3"
+          data-desktop="desktop-text-preset-3">
+          BUILT FOR MODERN USE
+        </p>
+        <h2 class="main-title"
+          data-mobile="mobile-text-preset-2"
+          data-tablet="tablet-text-preset-2"
+          data-desktop="desktop-text-preset-2">
+          Smarter meetings, all in one place
+        </h2>
+      </div>
+      <p class="main-desc"
+        data-mobile="tablet-text-preset-4"
+        data-tablet="tablet-text-preset-4"
+        data-desktop="desktop-text-preset-4">
+        Send messages, share files, show your screen, and record your meetings — all in one 
+        workspace. Control who can join with invite-only team access, data encryption, and data export.
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div class="serial-3">
+      <div class="line-decor"></div>
+      <div class="number desktop-text-preset-5">
+        02
+      </div>
+    </div>
+    <h2 class="footer-title"
+      data-mobile="mobile-text-preset-2"
+      data-tablet="tablet-text-preset-2"
+      data-desktop="desktop-text-preset-2">
+      Experience more together
+    </h2>
+    <p class="footer-desc"
+      data-mobile="tablet-text-preset-4"
+      data-tablet="tablet-text-preset-4"
+      data-desktop="desktop-text-preset-4">
+      Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+    </p>
+    <a href="#" class="footer-download desktop-text-preset-5">
+      Download v1.3
+    </a>
+  </footer>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
+  <script src="./scripts/styles.js"></script>
 </body>
 </html>
